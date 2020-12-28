@@ -112,7 +112,7 @@ async def on_afk(event):
                 f"**I am AFK .\n\nAFK Since {endtime}\nReason : **{reason}"
             )
         elif reason:
-            message_to_reply = f"**I am AFK .\n\nAFK Since {endtime}\nReason : {reason}**\n\n__ My boss  was bored of this conversation...😒 And he need to take a break  from this... 😌So keep calm... ☺️He will be right back😎 __"
+            message_to_reply = f"**I am AFK .\n\nAFK Since {endtime}\nReason : {reason}**\n\n__ My boss was bored of this conversation...😒 And he need to take a break  from this... 😌So keep calm... ☺️He will be right back😎 __"
         else:
             message_to_reply = f"**I am AFK .\n\nAFK Since {endtime}\nReason : Not Mentioned ( ಠ ʖ̯ ಠ)**\n\n__ My boss  was bored of this conversation...😒 And he need to take a break  from this... 😌So keep calm... ☺️He will be right back😎 __"
         if event.chat_id not in Config.UB_BLACK_LIST_CHAT:
